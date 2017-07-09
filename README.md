@@ -35,6 +35,7 @@ CXX := /lede/staging_dir/toolchain-mipsel_24kc_gcc-5.4.0_musl/bin/mipsel-openwrt
 - https://github.com/OnionIoT/fast-gpio
 - https://community.onion.io/topic/402/programming-in-c-c
 - https://community.onion.io/topic/1592/project-docker-omega2-sdk-for-cross-compilation-cmake-support
+- https://github.com/OnionIoT/OpenWRT-Packages/wiki/Setting-Up-the-Cross-Compile-Environment#step-2-get-openwrt-source
 - http://community.onion.io/topic/1390/dht11-22-checkhumidity-syntax-error
 
 
