@@ -23,7 +23,7 @@ cd /lede;make
 ```
 Then edit makefile to point CXX
 ```make
-CXX := /lede/staging_dir/toolchain-mipsel_24kc_gcc-5.4.0_musl/bin/mipsel-openwrt-linux-uclibc-g++
+CXX := /lede/staging_dir/toolchain-mipsel_24kc_gcc-5.4.0_musl/bin/mipsel-openwrt-linux-g++
 ```
 
 ## Origin source
