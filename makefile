@@ -1,7 +1,7 @@
 
 # This is the main compiler
 # CXX := mips-openwrt-linux-uclibc-g++
-CXX := /lede/staging_dir/toolchain-mipsel_24kc_gcc-5.4.0_musl/bin/mipsel-openwrt-linux-uclibc-g++ 
+CXX := /lede/staging_dir/toolchain-mipsel_24kc_gcc-5.4.0_musl/bin/mipsel-openwrt-linux-musl-g++ 
 # CXX := clang --analyze # and comment out the linker last line for sanity
 SRCDIR := src
 INCDIR := include
