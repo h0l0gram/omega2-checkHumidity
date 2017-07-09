@@ -3,8 +3,8 @@
 Trying to adapt code (fastgpio) to get [DHT11-DHT22-Sensor-Examples](https://wiki.onion.io/Tutorials/PHP-DHT11-DHT22-Sensor-Examples) working on Omega*2*(+).
 
 ## Current state
-- Cross-compile in docker compiles
-- ERROR on Omega2:
+- Cross-compilation in docker seems to work
+- ERROR on Omega2. Seems bad compilation or toolchain used:
 ```bash
 root@Omega-XXXX:~# ./checkHumidity 20 DHT22
 Error loading shared library libstdc++.so.6: No such file or directory (needed by ./checkHumidity)
@@ -15,6 +15,8 @@ Error relocating ./checkHumidity: _ZTVN10__cxxabiv120__si_class_type_infoE: symb
 Error relocating ./checkHumidity: _ZTVN10__cxxabiv121__vmi_class_type_infoE: symbol not found
 Error relocating ./checkHumidity: __gxx_personality_v0: symbol not found
 ```
+**Hints/improvements welcome!**
+
 
 ## How to start cross compile env
 ```bash
