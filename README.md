@@ -10,8 +10,8 @@ Works on Omega2 **firmware 0.1.10 b160**
 ## Install
 ```bash
 root@Omega-1234:~# mkdir checkHumidity && cd checkHumidity
-root@Omega-1234:~# wget https://github.com/h0l0gram/omega2-checkHumidity/raw/master/bin/checkHumidity
-root@Omega-1234:~# chmod -R 755 checkHumidity
+root@Omega-1234:~/checkHumidity# wget https://github.com/h0l0gram/omega2-checkHumidity/raw/master/bin/checkHumidity
+root@Omega-1234:~/checkHumidity# chmod -R 755 checkHumidity
 ```
 ## Run
 ```bash
@@ -22,7 +22,8 @@ DHT-TYPE : DHT11 or DHT22
 ```
 ## Example
 ```bash
-root@Omega-1234:~# ./checkHumidity 19 DHT22
+root@Omega-1234:~#cd checkHumidity
+root@Omega-1234:~/checkHumidity# ./checkHumidity 19 DHT22
 48.299999
 28.299999
 
