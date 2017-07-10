@@ -45,10 +45,12 @@ git clone https://github.com/h0l0gram/omega2-checkHumidity.git /mysource
 - https://wiki.onion.io/Tutorials/PHP-DHT11-DHT22-Sensor-Examples
 
 ## Links
+- http://community.onion.io/topic/299/dht11-and-dht22-temperature-humidity-sensor-code
+- http://community.onion.io/topic/1390/dht11-22-checkhumidity-syntax-error
 - https://github.com/OnionIoT/fast-gpio
 - https://docs.onion.io/omega2-docs/cross-compiling.html
 - https://github.com/OnionIoT/OpenWRT-Packages/wiki/Setting-Up-the-Cross-Compile-Environment#step-2-get-openwrt-source
-- http://community.onion.io/topic/1390/dht11-22-checkhumidity-syntax-error
+
 
 ## Credits
 - Adafruit Industries (original dht_read implementation)
