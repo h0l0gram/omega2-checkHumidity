@@ -52,4 +52,5 @@ git clone https://github.com/h0l0gram/omega2-checkHumidity.git /mysource
 
 ## Credits
 - Adafruit Industries (original dht_read implementation)
+- [Hugetto Hugetto](http://community.onion.io/user/hugetto-hugetto)
 - [Contributors](https://github.com/OnionIoT/fast-gpio/graphs/contributors) of [onion/fast-gpio](https://github.com/OnionIoT/fast-gpio) fastgpioomega2
