@@ -1,11 +1,12 @@
 # omega2-checkHumidity
 
-Tried to adapt code (fastgpio) to get [DHT11-DHT22-Sensor-Examples](https://wiki.onion.io/Tutorials/PHP-DHT11-DHT22-Sensor-Examples) working on Omega*2*(+).
+Adapted code (fastgpio) to get [DHT11-DHT22-Sensor-Examples](https://wiki.onion.io/Tutorials/PHP-DHT11-DHT22-Sensor-Examples) working on Omega*2*(+).
 
 ![omega2+ with DHT22](https://h0l0gram.github.io/omega2-checkHumidity/images/omega2-dht22-breadboard.png)
 
-## Current state
-Works on Omega2 **firmware 0.1.10 b160**
+## Prerequisites
+- Omega2(+)
+- Compiled binary requires firmware **0.1.10 b160** (you may be able to compile from source for older firmware as well)
 
 ## Install
 ```bash
