@@ -7,6 +7,7 @@ Adapted code (fastgpio) to get [DHT11-DHT22-Sensor-Examples](https://wiki.onion.
 ## Prerequisites
 - Omega2(+)
 - Compiled binary requires firmware **0.1.10 b160** (you may be able to compile from source for older firmware as well)
+(See [Updating the Omega2](https://docs.onion.io/omega2-docs/using-the-omega-updating.html) to check or update firmware)
 
 ## Install
 ```bash
